@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first html</title>
+
+	
+	
+	<style>
+		table {
+			  font-family: arial, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+		}
+		th,td{
+			 border: 1px solid #dddddd;
+			  text-align: left;
+			  padding: 8px;
+		}
+		tr:nth-child(even) {
+ 		 background-color: #dddddd;
+}
+	</style>
+</head>
+
+<body >
+	<h1 style="color:blue;align=left;"><u>My Resume:</u></h1><hr>
+
+	<div style="background-color:#45dec7;"> 
+	<h2 style="font-size:30px;">RAHUL</h2><p align=left>phone no:9449721546</p>
+	
+	<p>Address:'Nagashree' House, Kalaibail,Udupi</p>&nbsp
+
+	<p id="first"></p>
+	<script>
+		document.getElementById("first").innerHTML="branch: Information Science and Engg";
+	</script>
+	</div>
+
+	<p id="second">Addition (5+5) = </p>
+	<script>
+		function add()
+		{
+			var a,b,c;
+			a=5;
+			b=5;
+			c=a+b;
+			document.getElementById("second").innerHTML=c;
+		}
+		
+		
+	</script>
+	<button onclick="add()">click</button>	
+
+	<p id="third">Subtract (10-5) = </p>
+	<script>
+		function sub()
+		{
+			var a,b,c;
+			a=10;
+			b=5;
+			c=a-b;
+			document.getElementById("third").innerHTML=c;
+			
+		}
+
+		
+	</script>
+	<button onclick="sub()">click</button>	
+
+	<p id="fourth">Multiplication (10*2) = </p>
+	<script>
+		function mul()
+		{
+			var a,b,c;
+			a=10;
+			b=2;
+			c=a*b;
+			document.getElementById("fourth").innerHTML=c;
+		}
+	</script>
+	<button onclick=mul()>click</button>
+
+	<p id="fifth">Division (10/2) = </p>
+	<script>
+		function div()
+		{
+			var a,b,c;
+			a=10;
+			b=2;
+			c=a/b;
+			document.getElementById("fifth").innerHTML=c;
+		}
+	</script>
+	<button onclick=div()>click</button>
+	<p>&nbsp</p>
+
+	<table>
+	<tr>
+		<th>Nations</th>
+		<th>Capitals</th>
+	</tr>
+
+	<tr>
+		<td>India</th>
+		<td>Delhi</th>
+	</tr>
+
+	
+	<tr>
+		<td>USA</th>
+		<td>New York</th>
+	</tr>
+
+	
+	<tr>
+		<td>Malyasia</th>
+		<td>Singapore</th>
+	</tr>
+	</table>
+
+	
+	<footer style="color:#2f5896;">
+		<p>Contact information: <a href="mailto:rahul9449766@gmail.com">rahul9449766@gmail.com</a>.</p>
+	</footer>
+	
+
+
+</body>
+</html>
